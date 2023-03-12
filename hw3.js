@@ -2,7 +2,7 @@ function StartsWithA(stringArray,output = [],index = 0){
     if(index==stringArray.length){
         return output
     }
-    if(stringArray[index][0]==='a' || stringArray[index][0]==='A' )
+    if(stringArray[index][0]==='a')
     {
         output.push(stringArray[index])
     }
